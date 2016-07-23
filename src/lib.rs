@@ -45,10 +45,11 @@
 //!     game.run();
 //! }
 //! ```
-
 pub mod engine;
+pub mod components;
 
 pub extern crate amethyst_config as config;
 pub extern crate amethyst_context as context;
 pub extern crate amethyst_ecs as ecs;
 pub extern crate amethyst_renderer as renderer;
+extern crate nalgebra;

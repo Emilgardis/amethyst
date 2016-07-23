@@ -12,6 +12,9 @@ repository = "https://github.com/amethyst/amethyst"
 readme = "README.md"
 license = "MIT"
 
+[dependencies]
+nalgebra = "0.8.2"
+
 [dependencies.amethyst_ecs]
 path = "src/ecs/"
 version = "0.1.0"
