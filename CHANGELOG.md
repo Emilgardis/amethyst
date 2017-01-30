@@ -5,6 +5,32 @@ adheres to [Semantic Versioning][sv].
 
 [sv]: http://semver.org/
 
+## 0.4.0 (2017-x-x) TO BE FILLED
+### Breaking changes
+* Application and State machine has been completely reworked.
+* Removed `engine` subcrate c3472bc
+* Reworked trait `State` methods: 	8fb8a37, etc
+* - Gives a `World`, `Àssetmanager` and `Pipeline`
+### Added
+* Added `Rendered`: dcbb334, e1c862b, etc
+* More documentation
+* Event system: TODO
+* Added `Assetmanager`: cb22979, b4c4427, 33c8561
+* Added `Config` system: ba803eb, etc
+* Added a pong example: 831433a
+* Added `InputHandler`: d3519fc, 8a97657
+* Added Transform: 21315d9, c1ae5ae
+### Changed
+* Single `Planner` in StateMachine. 26024e2
+* Added better functionality in example and reworked them
+* * - ff61395, aff004a, 32df289 etc
+* Made Amethyst into a `[workspace]` 9af584b
+### Fixed
+* Bug in `advance_frame` 2854a0a
+
+### TODO:
+# Remove all references to commits, only here for giving context for us while writing this document.
+- We've moved stuff from context subcrate into different places, how do we changelog this?
 ## 0.3.1 (2016-09-07)
 
 ### Fixed
